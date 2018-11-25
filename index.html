@@ -29,16 +29,35 @@
                     <li>The game restarts each time you win or lose.</li>
                 </span></ul>
             </div>
+            <div class="col-6 mt-3">
+                    <div class="card" style="width: 18rem;">
+                            <div class="card-header">
+                              <p id="randNum"></P> 
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item"><p>YOUR SCORE:<span id="userSum"></span></p></li>
+                              <li class="list-group-item"><p>Wins:<span id="wins"></span></p></li>
+                              <li class="list-group-item"><p>Losses<span id="losses"></span></p></li>
+                            </ul>
+                          </div>
+            </div>
         </div>
         <div class="row mt-3">
-            <div class="col" style="background-color: maroon">
-                <img src="" />
-                <img src="" />
-                <img src="" />
-                <img src="" />
+            <div class="col-3 p-3" style="background-color: maroon">
+                <img id="t1" src="./assets/images/Time_Crystal.png" width="150px" height="150px" />
+            </div>
+            <div class="col-3 p-3" style="background-color: maroon">
+                <img id ="t2" src="./assets/images/Time_Crystal_2.png" width="150px" height="150px" />
+            </div>
+            <div id="t3" class="col-3 p-3" style="background-color: maroon">
+                <img src="./assets/images/Time_Crystal_3.png" width="150px" height="150px" />
+            </div>
+            <div class="col-3 p-3" style="background-color: maroon">
+                <img id="t4" src="./assets/images/Time_Crystal_4.png" width="150px" height="150px" />
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/game.js"></script>
 </body>
 </html>
