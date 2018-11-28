@@ -75,14 +75,14 @@ var heatCheck = function () {
     else if (userSum === targetNum) {
         // play sound and alert winner
         document.getElementById('homer-win').play();
-        alert("WINNER WINNER!");
+        
 
         // add win to counter
         winners++;
 
         // update win count to page
         $("#wins").text(winners);
-
+        alert("WINNER WINNER!");
         // Restart the game
         gameStart();
     }
